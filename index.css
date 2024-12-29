@@ -211,8 +211,9 @@ li{
 
 .item .product{
     z-index: 2;
-    width: 600px;
+    width: auto;
     position: absolute;
+    height: auto;
 
     left: 50%;
     top: 50%;
