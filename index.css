@@ -185,7 +185,7 @@ li{
 .item{
     display: none;
     width: 100%;
-    height: 450px;
+    height: 600px;
     position: relative;
     overflow: hidden;
     background-color: var(--background);
@@ -220,6 +220,8 @@ li{
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+
 
 #prev, #next{
     position: absolute;
