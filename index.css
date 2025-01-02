@@ -217,9 +217,8 @@ li{
     position: absolute;
     height: auto;
 
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    left:70%;
+    top: 50px;
 }
 
 #prev, #next{
@@ -234,7 +233,6 @@ li{
     cursor: pointer;
     z-index: 4;
     border-radius: 50%;
-
 }
 
 #prev{
@@ -242,8 +240,9 @@ li{
 }
 
 #next{
-    right: 30px;
+    right: 30px
 }
+
 
 #div2{
     background-color: #B83539;
