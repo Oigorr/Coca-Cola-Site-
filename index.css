@@ -280,9 +280,15 @@ footer{
     height: 50px;
     margin: 20px;
     left: 80%;
-    bottom: 100px;
+    bottom: 150px;
     
 
+}
+
+#logoigor{
+    position: relative;
+    right: 200px;
+    margin-top: 50px;
 }
 
 
