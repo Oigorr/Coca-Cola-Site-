@@ -32,18 +32,22 @@ nav{
     align-items: center;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    text-shadow: 1px 1px 6px black;
-}
-
 li{
     padding: 21px;
     margin-right: 10px;
     list-style-type: none;
     font-weight: bold;
+    text-decoration: none;
+    color: white;
+    
 }
+
+li a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 6px black;
+}
+
 
 .divs{
     display: flex;
@@ -176,8 +180,9 @@ li{
 
 /* Vídeo Anúncio */
 #divvideo2{
-    background-color: #B83539;
+    background-color: black
 }
+
 #video{
     height: 100%;
     width: 100%;
@@ -198,6 +203,8 @@ li{
 
 .divpropaganda{
     margin-left: 100px;
+    width: 100%;
+    height: 76%;
 }
 
 .carousel-item{
@@ -210,7 +217,7 @@ li{
     max-height: 55%;
     object-fit: contain;
     position: absolute;
-    left: 520px;
+    left: 600px;
     top: 140px;
 }
 
@@ -267,17 +274,19 @@ li{
 #divcoca{
     height: 90px;
     background-color: #B83539;
-    
+
 }
 
 #divfanta{
     height: 90px;
     background-color: #CA773C;
+
 }
 
 #divsprite{
     height: 90px;
     background-color: #2E522F;
+
 }
 
 /* Footer */
@@ -285,7 +294,6 @@ footer{
     background-color: black;
     width: 100%;
     height: 100%;
-
 }
 
 #cocafooter{
@@ -314,6 +322,12 @@ footer{
     right: 200px;
     margin-top: 50px;
 }
+
+a {
+    text-decoration: none;
+    color: inherit; /* Isso mantém a cor do texto */
+}
+
 
 /* Responsividade */
 @media screen and (max-width: 754) {
