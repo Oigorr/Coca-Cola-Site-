@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icone site 2.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>Coca Cola</title>
 </head>
 <body>
@@ -60,41 +62,52 @@
     <div id="divvideo2">
         <video class="video" src="video coca cola anuncio.mp4" autoplay loop muted></video>
     </div>
+
 <!-- Produtos da marca -->
-        <div class="divs">
-            <h1 class="tittlestore">NOSSOS PRODUTOS</h1>
-        </div>
-        <div class="item active" style="--background: #background: rgb(0,0,0); background: linear-gradient(3deg, rgba(0,0,0,1) 0%, rgba(228,28,35,1) 35%);">
-            <div class="contrefri">
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div id="coca" class="carousel-inner">
+        <div class="carousel-item active">
+            <div id="nsscoca"><strong>NOSSOS PRODUTOS</strong></div>
+            <div class="divpropaganda">
                 <div class="title"> Coca Cola</div>
                 <p class="prop">A Coca-Cola traz o prazer de um sabor inconfundível em cada gole, criando memórias que ficam para sempre. É a bebida que conecta pessoas, cria sorrisos e transforma qualquer ocasião em uma celebração.</p>
             </div>
-            <div id="linecoca"></div>
-            <img class="product" src="Lata coca cola.png" >
-        </div>
+            <img src="Lata coca cola.png" class="d-block w-100" alt="...">
+            <div id="divcoca"></div>
+    </div>
 
-        <div class="item" style="--background: #background: rgb(0,0,0); background: linear-gradient(3deg, rgba(0,0,0,1) 0%, rgba(244,122,32,1) 35%);">
-            <div class="contrefri">
-                <div class="title"> Fanta </div>
-                <p class="prop">Fanta é a explosão de sabor que transforma qualquer momento em uma verdadeira festa! Com suas cores vibrantes e sabores irresistíveis, Fanta traz a energia e a diversão que você precisa para aproveitar a vida ao máximo.</p>
-            </div>
-            <div id="linefanta"></div>
-            <img class="product" src="Lata fanta sem fundo.png">
+    <div id="fanta" class="carousel-item">
+        <div id="nssfanta"><strong>NOSSOS PRODUTOS</strong></div>
+        <div class="divpropaganda">
+            <div class="title"> Fanta </div>
+            <p class="prop">Fanta é a explosão de sabor que transforma qualquer momento em uma verdadeira festa! Com suas cores vibrantes e sabores irresistíveis, Fanta traz a energia e a diversão que você precisa para aproveitar a vida ao máximo.</p>
         </div>
+        <img src="Lata fanta sem fundo.png" class="d-block w-100" alt="...">
+        <div id="divfanta"></div>
+    </div>
 
-        <div class="item" style="--background: #background: rgb(0,0,0); background: linear-gradient(3deg, rgba(0,0,0,1) 0%, rgba(49,125,52,1) 35%);">
-            <div class="contrefri">
-                <div class="title"> Sprite </div>
-                <p class="prop">Sprite é a bebida que combina com todos os momentos: seja para dar aquele gás nas atividades do dia a dia ou para relaxar com amigos. Sem corantes e com o frescor que só o limão pode oferecer, ela é a companheira ideal para quem busca uma experiência refrescante, sem igual.</p>
-            </div>
-            <div id="linesprite"></div>
-            <img class="product" src="Lata srite sem fundo copia.png" alt="colocar algo atras, limao">
+    <div id="sprite" class="carousel-item">
+        <div id="nsssprite"> <strong>NOSSOS PRODUTOS</strong></div>
+        <div class="divpropaganda">
+            <div class="title"> Sprite </div>
+            <p class="prop">Sprite é a bebida que combina com todos os momentos: seja para dar aquele gás nas atividades do dia a dia ou para relaxar com amigos. Sem corantes e com o frescor que só o limão pode oferecer, ela é a companheira ideal para quem busca uma experiência refrescante, sem igual.</p>
         </div>
-        <div id="arrow">
-            <button id="prev"> < </button>
-            <button id="next"> > </button>
-        </div>
-    <div id="div2"></div>
+        <img src="Lata srite sem fundo copia.png" class="d-block w-100" alt="...">
+        <div id="divsprite"></div>
+    </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
 
 <!-- Footer -->
     <footer>
